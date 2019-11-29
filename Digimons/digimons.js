@@ -7,7 +7,7 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports.run = async(client, message, args) => {
-    var randomimg = path.join(__dirname, './Digimons/');
+    var randomimg = path.join(__dirname, 'Digimons/');
     randomimg = [
         "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg",
         "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg",
