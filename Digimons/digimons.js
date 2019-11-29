@@ -7,8 +7,7 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports.run = async(client, message, args) => {
-    var randomimg = path.join(__dirname, 'Digimons');
-    randomimg = [
+    var randomimg = [
         "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg",
         "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg",
         "Agumon X.jpg", "Agumon.jpg", "Agunimon.jpg", "Aircraft Carrier Whamon.jpg", "Airdramon.jpg", "Akatorimon.jpg",
@@ -72,7 +71,7 @@ module.exports.run = async(client, message, args) => {
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send({ file: ["Digimons"] + img })
+    message.channel.send({ file: ["./Digimons/"] + img })
 }
 
 module.exports.config = {
