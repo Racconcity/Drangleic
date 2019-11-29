@@ -7,9 +7,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "common-tags": "^1.8.0",
     "dateformat": "^3.0.3",
