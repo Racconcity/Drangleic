@@ -64,4 +64,4 @@ client.on("message", async(message) => {
     if (commandfile) commandfile.run(client, message, args)
 
 });
-client.login(proccess.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
