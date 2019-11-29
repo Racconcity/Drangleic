@@ -17,7 +17,6 @@ client.on("ready", async() => {
 //////////////////////////////////////////////////////////////////////////////////////
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
-client.Digimons = new Discord.Collection();
 
 fs.readdir("./commands/", (err, files) => {
     if (err) console.log(err)
@@ -29,23 +28,6 @@ fs.readdir("./commands/", (err, files) => {
 
     jsfile.forEach((f, i) => {
         let pull = require(`./commands/${f}`);
-        client.commands.set(pull.config.name, pull);
-        pull.config.aliases.forEach(alias => {
-            client.aliases.set(alias, pull.config.name)
-        });
-    });
-});
-
-fs.readdir("./Digimons/", (err, files) => {
-    if (err) console.log(err)
-
-    let jsfile = files.filter(f => f.split(".").pop() === "js")
-    if (jsfile.length <= 0) {
-        return console.log("No hay comandos")
-    }
-
-    jsfile.forEach((f, i) => {
-        let pull = require(`./Digimons/${f}`);
         client.commands.set(pull.config.name, pull);
         pull.config.aliases.forEach(alias => {
             client.aliases.set(alias, pull.config.name)
