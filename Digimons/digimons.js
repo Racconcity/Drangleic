@@ -72,7 +72,7 @@ module.exports.run = async(client, message, args) => {
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send({ file: img })
+    message.channel.send({ file: [/Drangleic/Digimons/] + img })
 }
 
 module.exports.config = {
