@@ -7,7 +7,7 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports.run = async(client, message, args) => {
-    var randomimg = path.join(__dirname, './DrangleicBot/Pokemon/');
+    var randomimg = path.join(__dirname, 'Pokemon/');
     randomimg = [
         /*Primera gen*/
         "Bulbasaur.png","Ivysaur.png","Venusaur.png","Charmander.png","Charmeleon.png","Charizard.png","Squirtle.png","Wartortle.png","Blastoise.png",
@@ -29,7 +29,7 @@ module.exports.run = async(client, message, args) => {
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El pokémon es: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send({ file: ["./Pokemon/"] + img })
+    message.channel.send({ file: ["Pokemon/"] + img })
 }
 
 module.exports.config = {
