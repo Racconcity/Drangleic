@@ -52,6 +52,23 @@ fs.readdir("./Digimons/", (err, files) => {
     });
 });
 //////////////////////////////////////////////////////////////////////////////////////
+fs.readdir("./Pokemon/", (err, files) => {
+    if (err) console.log(err)
+
+    let jsfile = files.filter(f => f.split(".").pop() === "js")
+    if (jsfile.length <= 0) {
+        return console.log("No hay comandos")
+    }
+
+    jsfile.forEach((f, i) => {
+        let pull = require(`./Pokemon/${f}`);
+        client.commands.set(pull.config.name, pull);
+        pull.config.aliases.forEach(alias => {
+            client.aliases.set(alias, pull.config.name)
+        });
+    });
+});
+//////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
     let messageArray = message.content.split(" ")
