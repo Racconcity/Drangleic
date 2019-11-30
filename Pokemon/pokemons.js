@@ -33,7 +33,7 @@ module.exports.run = async(client, message, args) => {
 }
 
 module.exports.config = {
-    name: "pokemon",
-    usage: "-pokemon",
+    name: "pokemons",
+    usage: "-pokemons",
     aliases: ["pok", "pokedesc"]
 }
