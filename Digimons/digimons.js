@@ -68,7 +68,19 @@ module.exports.run = async(client, message, args) => {
         "Flybeemon.jpg","Flymon.jpg","Footmon.jpg","Frigimon.jpg","Frimon.jpg","Frogmon.jpg","Fufumon.jpg","Fugamon.jpg","Fujinmon.jpg","Fujitsumon.jpg",
         "FusedAncientVolcanomon.jpg","Gabumon.jpg","Gabumon X.jpg","Gaiamon.jpg","Galacticmon.jpg","Gallantmon (Grani).jpg","Gallantmon.jpg","Gallantmon Chaos Mode.jpg",
         "Gallantmon Crimson Mode.jpg","Gallantmon X.jpg","Ganemon.jpg","Gankoomon.jpg","Gankoomon X.jpg","Gaogamon.jpg","Gaomon.jpg","Gaossmon.jpg","Garbagemon.jpg",
-        "Gargomon.jpg","Gargoylemon.jpg","Garudamon.jpg","Garudamon X.jpg","Garurumon.jpg","Garurumon X.jpg"
+        "Gargomon.jpg","Gargoylemon.jpg","Garudamon.jpg","Garudamon X.jpg","Garurumon.jpg","Garurumon X.jpg","Gatomon.jpg","Gatomon (Ringless).jpg","Gatomon X.jpg",
+        "Gazimon.jpg","Gazimon X.jpg","Gekomon.jpg","Generamon.jpg","GeoGreymon.jpg","Geremon.jpg","Gesomon.jpg","Gesomon X.jpg","Ghoulmon.jpg","Ghoulmon (Black).jpg",
+        "GigaBreakdramon.jpg","Gigadramon.jpg","GigaSeadramon.jpg","Gigasmon.jpg","GigaWaruMonzaemon.jpg","Gigimon.jpg","Ginkakumon.jpg","Ginkakumon Promote.jpg",
+        "Ginryumon.jpg","Giromon.jpg","Gizamon.jpg","Gizumon.jpg","Gizumon-AT.jpg","Gizumon-XT.jpg","Gladimon.jpg","Goblimon.jpg","Gokuwmon.jpg","GoldNumemon.jpg","Goldramon.jpg",
+        "Goldramon X.jpg","GoldVeedramon.jpg","GolemJijiTortomon.jpg","Golemon.jpg","Gomamon.jpg","Gomamon X.jpg","Gorillamon.jpg","Gotsumon.jpg","Gotsumon X.jpg",
+        "GraceNovamon.jpg","Grademon.jpg","Grand Generamon.jpg","GrandisKuwagamon.jpg","GrandisKuwagamon Honeybee Mode.jpg","GranDracmon.jpg","GranKuwagamon.jpg","GranLocomon.jpg",
+        "GrapLeomon.jpg","Gravimon.jpg","Gravimon Darkness Mode.jpg","Greatest Cutemon.jpg","GreyKnightsmon.jpg","Greymon.jpg","Greymon (2010 anime).jpg","Greymon O.jpg",
+        "Greymon X.jpg","Grimmon.jpg","Grimmon (Mystic Energy).jpg","Grizzlymon.jpg","Groundramon.jpg","Growlmon.jpg","Growlmon (Yellow).jpg","Growlmon X.jpg","Grumblemon.jpg",
+        "Gryphonmon.jpg","Guardromon.jpg","Guardromon (Gold).jpg","Guidemon.jpg","Guilmon.jpg","Guilmon X.jpg","Gulfmon.jpg","Gumdramon.jpg","Gummymon.jpg","Gundramon.jpg",
+        "Gururumon.jpg","Gwappamon.jpg","Hackmon.jpg","Hagurumon.jpg","Hagurumon X.jpg","Halsemon.jpg","Harpymon.jpg","Hawkmon.jpg","HerculesKabuterimon.jpg",
+        "HerculesKabuterimon X.jpg","Herissmon.jpg","Hermmon.jpg","Hi-VisionMonitamon.jpg","HiAndromon.jpg","HiMachineDramon.jpg","Hinukamuy.jpg","Hippogriffomon.jpg",
+        "HolyDigitamamon.jpg","Honeybeemon.jpg","Hookmon.jpg","Hopmon.jpg","Hououmon.jpg","Hououmon X.jpg","Housemon.jpg","Huanglongmon.jpg","Hudiemon.jpg","HustleNanimon.jpg",
+        "Hyogamon.jpg","Hyokomon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
