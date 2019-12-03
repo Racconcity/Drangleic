@@ -80,7 +80,14 @@ module.exports.run = async(client, message, args) => {
         "Gururumon.jpg","Gwappamon.jpg","Hackmon.jpg","Hagurumon.jpg","Hagurumon X.jpg","Halsemon.jpg","Harpymon.jpg","Hawkmon.jpg","HerculesKabuterimon.jpg",
         "HerculesKabuterimon X.jpg","Herissmon.jpg","Hermmon.jpg","Hi-VisionMonitamon.jpg","HiAndromon.jpg","HiMachineDramon.jpg","Hinukamuy.jpg","Hippogriffomon.jpg",
         "HolyDigitamamon.jpg","Honeybeemon.jpg","Hookmon.jpg","Hopmon.jpg","Hououmon.jpg","Hououmon X.jpg","Housemon.jpg","Huanglongmon.jpg","Hudiemon.jpg","HustleNanimon.jpg",
-        "Hyogamon.jpg","Hyokomon.jpg"
+        "Hyogamon.jpg","Hyokomon.jpg","IceDevimon.jpg","IceDevimon (Enhancement Absorbent).jpg","IceDevimon-Daipenmon Enhancement.jpg","IceLeomon.jpg","IceLeomon X.jpg",
+        "Icemon.jpg","Ignitemon.jpg","Ikkakumon.jpg","Imperialdramon Dragon Mode.jpg","Imperialdramon Fighter Mode.jpg","Imperialdramon Fighter Mode (Black).jpg",
+        "Imperialdramon Paladin Mode.jpg","Impmon.jpg","Impmon X.jpg","Indramon.jpg","Infermon.jpg","Jagamon.jpg","JagerLoweemon.jpg","Jazamon.jpg","Jazardmon.jpg",
+        "Jazarichmon.jpg","Jesmon.jpg","Jesmon GX.jpg","Jesmon X.jpg","JetMervamon.jpg","JetSilphymon.jpg","JewelBeemon.jpg","Jijimon.jpg","JijiShoutmon.jpg","Jokermon.jpg",
+        "JumboGamemon.jpg","JungleMojyamon.jpg","Junomon.jpg","Junomon Hysteric Mode.jpg","Jupitermon.jpg","Jupitermon Wrath Mode.jpg","Justimon (Accel Arm).jpg",
+        "Justimon (Blitz Arm).jpg","Justimon (Critical Arm).jpg","Justimon X.jpg","Jyarimon.jpg","Kabukimon.jpg","Kabuterimon.jpg","Kakkinmon.jpg","Kamemon.jpg",
+        "Kangarumon.jpg","Kapurimon.jpg","Karatenmon.jpg","KaratsukiNumemon.jpg","Kazemon.jpg","Keemon.jpg","KendoGarurumon.jpg","Kenkimon.jpg","Kentaurosmon.jpg",
+        "Kentaurosmon X.jpg","Keramon.jpg","Keramon X.jpg","Ketomon.jpg","Kimeramon.jpg","KingChessmon.jpg","KingEtemon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
