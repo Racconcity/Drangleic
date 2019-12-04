@@ -87,7 +87,12 @@ module.exports.run = async(client, message, args) => {
         "JumboGamemon.jpg","JungleMojyamon.jpg","Junomon.jpg","Junomon Hysteric Mode.jpg","Jupitermon.jpg","Jupitermon Wrath Mode.jpg","Justimon (Accel Arm).jpg",
         "Justimon (Blitz Arm).jpg","Justimon (Critical Arm).jpg","Justimon X.jpg","Jyarimon.jpg","Kabukimon.jpg","Kabuterimon.jpg","Kakkinmon.jpg","Kamemon.jpg",
         "Kangarumon.jpg","Kapurimon.jpg","Karatenmon.jpg","KaratsukiNumemon.jpg","Kazemon.jpg","Keemon.jpg","KendoGarurumon.jpg","Kenkimon.jpg","Kentaurosmon.jpg",
-        "Kentaurosmon X.jpg","Keramon.jpg","Keramon X.jpg","Ketomon.jpg","Kimeramon.jpg","KingChessmon.jpg","KingEtemon.jpg"
+        "Kentaurosmon X.jpg","Keramon.jpg","Keramon X.jpg","Ketomon.jpg","Kimeramon.jpg","KingChessmon.jpg","KingEtemon.jpg","Kinkakumon.jpg","Kiwimon.jpg","KnightChessmon (Black).jpg",
+        "KnightChessmon (White).jpg","Knightmon.jpg","Knightmon Wise-Sword Mode.jpg","KoDokugumon.jpg","Kogamon.jpg","KoHagurumon.jpg","KoKabuterimon.jpg",
+        "Kokatorimon.jpg","Kokomon.jpg","Kokuwamon.jpg","Kokuwamon X.jpg","Kongoumon.jpg","Korikakumon.jpg","Koromon.jpg","Kotemon.jpg",
+        "KoZenimon.jpg","Kudamon.jpg","Kudamon (2006 anime).jpg","Kumamon.jpg","Kumbhiramon.jpg","Kunemon.jpg","Kuramon.jpg",
+        "Kuwagamon.jpg","Kuwagamon X.jpg","Kuzuhamon.jpg","Kuzuhamon Miko Mode.jpg","Kyaromon.jpg","KyodaiNumemon.jpg",
+        "Kyokyomon.jpg","Kyubimon.jpg","Kyubimon (Silver).jpg","Kyukimon.jpg","Kyupimon.jpg","L-ToyAgumon.jpg","Labramon.jpg","LadyDevimon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
