@@ -92,7 +92,11 @@ module.exports.run = async(client, message, args) => {
         "Kokatorimon.jpg","Kokomon.jpg","Kokuwamon.jpg","Kokuwamon X.jpg","Kongoumon.jpg","Korikakumon.jpg","Koromon.jpg","Kotemon.jpg",
         "KoZenimon.jpg","Kudamon.jpg","Kudamon (2006 anime).jpg","Kumamon.jpg","Kumbhiramon.jpg","Kunemon.jpg","Kuramon.jpg",
         "Kuwagamon.jpg","Kuwagamon X.jpg","Kuzuhamon.jpg","Kuzuhamon Miko Mode.jpg","Kyaromon.jpg","KyodaiNumemon.jpg",
-        "Kyokyomon.jpg","Kyubimon.jpg","Kyubimon (Silver).jpg","Kyukimon.jpg","Kyupimon.jpg","L-ToyAgumon.jpg","Labramon.jpg","LadyDevimon.jpg"
+        "Kyokyomon.jpg","Kyubimon.jpg","Kyubimon (Silver).jpg","Kyukimon.jpg","Kyupimon.jpg","L-ToyAgumon.jpg","Labramon.jpg","LadyDevimon.jpg",
+        "LadyDevimon X.jpg","Lalamon.jpg","Lampmon.jpg","Lavogaritamon.jpg","Lavorvomon.jpg","Laylamon.jpg","Laylamon X.jpg","Leafmon.jpg","Lekismon.jpg","Leomon.jpg","Leomon X.jpg",
+        "Leopardmon.jpg","Leopardmon Leopard Mode.jpg","Leopardmon X.jpg","Leviamon.jpg","Leviamon X.jpg","Liamon.jpg","Lilamon.jpg","Lillymon.jpg","Lillymon X.jpg","Liollmon.jpg",
+        "LoaderLiomon.jpg","Lobomon.jpg","Locomon.jpg","Lopmon.jpg","Lopmon (White).jpg","Lopmon X.jpg","Lotosmon.jpg","Loweemon.jpg","Lucemon.jpg","Lucemon Chaos Mode.jpg",
+        "Lucemon Larva.jpg","Lucemon Shadowlord Mode.jpg","Lucemon X.jpg","Ludomon.jpg","Luminamon.jpg","Luminamon (Nene Version).jpg","Lunamon.jpg","Lycamon.jpg","Lynxmon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
